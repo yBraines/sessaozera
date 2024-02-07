@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
                                                 
 }
 div {
@@ -68,7 +69,7 @@ button:hover {
         font-size: 0.8em;
     }
     main, header > h1 {
-        width: 90vw;
+        width: 80vw;
     }
 }
 @media screen and (max-width: 570px) {
