@@ -66,9 +66,16 @@ button:hover {
     html {
         font-size: 0.8em;
     }
+    main, header > h1 {
+        width: 90vw;
+    }
 }
 @media screen and (max-width: 570px) {
     html {
         font-size: 0.5em
+    }
+    button {
+        height: 80px;
+        width: 150px;
     }
 }
